@@ -1,0 +1,55 @@
+.navigation-bar {
+    width: 100%;
+    background-color: #149777;
+    color: white;
+}
+
+.nav-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: aqua;
+}
+
+.check-btn {
+    font-size: 30px;
+    margin-left: 6px;
+    padding: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.logo {
+    margin-left: -180px;
+    margin-right: 30px;
+    width: 150px;
+    background-color: #149777;
+}
+
+.left p {
+    font-weight: 700;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+.chat-icon {
+    width: 40px;
+}
+
+.login-icon {
+    width: 40px;
+}
