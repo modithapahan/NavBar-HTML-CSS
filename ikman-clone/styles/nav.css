@@ -19,115 +19,116 @@
 }
 
 .left {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .bar {
-    margin-left: 20px;
-    display: none;
+  margin-left: 20px;
+  display: none;
 }
 
 .bar i {
-    font-size: 27px;
+  font-size: 27px;
 }
 
 .logo {
-    margin-right: 12px;
+  margin-right: 12px;
 }
 
-.logo img{
-    width: 133px;
+.logo img {
+  width: 133px;
 }
 
 .add {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 
 .add p {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .btn-group button {
-    background-color: #149777;
-    border: 1px solid #007168;
-    color: white;
-    padding: 8px 15px;
-    cursor: pointer;
-    float: left;
-  }
+  background-color: #149777;
+  border: 1px solid #007168;
+  color: white;
+  padding: 8px 15px;
+  cursor: pointer;
+  float: left;
+}
 
-  .btn-group #btn-1 {
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-  }
+.btn-group #btn-1 {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
 
-  .btn-group #btn-2 {
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-  }
-  
-  .btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.btn-group #btn-2 {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
 
-  .btn-group button:not(:last-child) {
-    border-right: none;
-  }
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
 
 .right {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
 }
 
 .chat {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 30px;
-    padding-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  padding-right: 6px;
 }
 
-.chat svg{
-    width: 35px;
-    fill: white;
-    margin-right: 6px;
+.chat svg {
+  width: 35px;
+  fill: white;
+  margin-right: 6px;
 }
 
 .login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 30px;
-    padding-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  padding-right: 6px;
 }
 
 .login svg {
-    width: 35px;
-    fill: white;
-    margin-right: 6px;
+  width: 35px;
+  fill: white;
+  margin-right: 6px;
 }
 
-.chat,.login p {
-    font-size: 14px;
-    font-weight: 100;
+.chat,
+.login p {
+  font-size: 14px;
+  font-weight: 100;
 }
 
-.button button{
-    padding: 15px 8px 13px 8px;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: #673500;
-    background-color: #ffc800;
-    border: none;
-    border-radius: 5px;
+.button button {
+  padding: 15px 8px 13px 8px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #673500;
+  background-color: #ffc800;
+  border: none;
+  border-radius: 5px;
 }
 
 .bottom {
@@ -148,19 +149,19 @@
   align-items: center;
 }
 
-.location { 
+.location {
   background-color: #10846f;
   padding: 5px 15px 9px 15px;
   border-radius: 30px;
 }
 
-.location i{
+.location i {
   font-size: 19px;
   margin-right: 2px;
   margin-top: 3px;
 }
 
-.location label{
+.location label {
   font-weight: 400;
 }
 
@@ -178,7 +179,6 @@
   border: none;
   border-radius: 24px;
 }
-
 
 /* .search {
   display: flex;
