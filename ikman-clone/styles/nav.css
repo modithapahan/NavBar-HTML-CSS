@@ -26,12 +26,12 @@
 }
 
 .bar {
-  margin-left: 20px;
   display: none;
 }
 
 .bar i {
-  font-size: 27px;
+  font-size: 26px;
+  padding-bottom: 4px;
 }
 
 .logo {
@@ -40,6 +40,7 @@
 
 .logo img {
   width: 133px;
+  cursor: pointer;
 }
 
 .add {
@@ -117,7 +118,7 @@
 .chat,
 .login p {
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .button button {
@@ -136,50 +137,108 @@
   padding-top: 20px;
 }
 
-.row {
+/* .row {
   margin-left: 10px;
   margin-right: 10px;
-}
+} */
 
 .container {
-  margin-top: 20px;
+  width: 100%;
+}
+
+.location {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.location {
+.location-content {
   background-color: #10846f;
   padding: 5px 15px 9px 15px;
   border-radius: 30px;
 }
 
-.location i {
+.location-content i {
   font-size: 18px;
   margin-right: 2px;
   margin-top: 3px;
 }
 
-.location label {
+.location-content label {
   font-weight: 400;
 }
 
 .search {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 
-.search input {
-  width: 63%;
+.search-content {
+  width: 100%;
+  position: relative;
+  margin-top: 18px;
+  margin-bottom: 45px;
+}
+
+.search-content input {
+  width: 100%;
   font-size: 18px;
   font-weight: 300;
-  padding: 25px;
+  padding: 22px;
   border: none;
   border-radius: 32px;
+  outline: none;
 }
 
+.search-content i {
+  background-color: #ffc800;
+  color: #625a30;
+  font-size: 25px;
+  padding: 16px;
+  border-radius: 31px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+@media (max-width: 850px) {
+  .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .chat svg,
+  .login svg {
+    cursor: pointer;
+  }
+
+  .chat p,
+  .login p {
+    display: none;
+  }
+
+  .bar {
+    display: block;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .add,
+  .button {
+    display: none;
+  }
+
+  .btn-group {
+    display: none;
+  }
+}
