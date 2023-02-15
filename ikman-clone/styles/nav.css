@@ -178,7 +178,7 @@
   width: 100%;
   font-size: 18px;
   font-weight: 300;
-  padding: 22px;
+  padding: 20px;
   border: none;
   border-radius: 32px;
   outline: none;
@@ -188,11 +188,11 @@
   background-color: #ffc800;
   color: #625a30;
   font-size: 25px;
-  padding: 16px;
+  padding: 15px;
   border-radius: 31px;
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 4px;
+  right: 3px;
 }
 
 @media (max-width: 850px) {
@@ -236,5 +236,34 @@
 
   .btn-group {
     display: none;
+  }
+
+  .bottom {
+    padding-top: 8px;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .search-content {
+    position: relative;
+    margin-bottom: 28px;
+  }
+
+  .search-content input {
+    font-size: 17px;
+    padding: 13px;
+  }
+
+  .search-content i {
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 4px;
+    right: 3px;
   }
 }
