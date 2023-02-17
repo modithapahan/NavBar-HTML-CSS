@@ -1,0 +1,136 @@
+.category {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1.5% 10% 0 10%;
+    padding: 10px;
+}
+
+.title label{
+    color: #2f3432;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 40px;
+    padding: 3% 14% 2% 14%;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.items img{
+    margin: 3px;
+    cursor: pointer;
+}
+
+/* items images size */
+.items #electronic {
+    width: 30px;
+}
+
+.items #vehicle {
+    width: 43px;
+}
+
+.items #property {
+    width: 35px;
+}
+
+.items #garden {
+    width: 40px;
+}
+
+.items #servises {
+    width: 35px;
+}
+
+.items #business {
+    width: 40px;
+}
+
+.items #animals {
+    width: 45px;
+}
+
+.items #sports {
+    width: 45px;
+}
+
+.items #jobs {
+    width: 49px;
+}
+
+.items #fashion {
+    width: 45px;
+}
+
+.items #education {
+    width: 45px;
+}
+
+.items #essentials {
+    width: 45px;
+}
+
+.items #other {
+    width: 51px;
+}
+
+.items #agriculture {
+    width: 45px;
+}
+
+.items #work {
+    width: 45px;
+}
+
+.items img {
+    margin-left: 20px;
+}
+
+.item-content {
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.item-content p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #2f3432;
+}
+
+.item-content label {
+    font-size: 12px;
+    padding-top: 8px;
+    color: #707676;
+} 
+
+/* Responsive */
+
+@media (max-width: 1030px) {
+
+    .title {
+        margin: 1.5% 4% 0 4%; 
+    }
+
+    .category-container {
+        padding: 3% 5% 2% 5%;;
+    }
+}
