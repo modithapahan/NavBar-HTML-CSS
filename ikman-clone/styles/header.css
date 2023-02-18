@@ -267,3 +267,9 @@
     right: 3px;
   }
 }
+
+@media (max-width: 500px) {
+  .header {
+    width: 100%;
+  }
+}
