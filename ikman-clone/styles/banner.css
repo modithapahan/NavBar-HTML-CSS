@@ -1,73 +1,53 @@
 .banner-container {
     width: 100%;
+    margin-top: 30px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 25px 0 100px 0;
 }
 
 .left-banner {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    /* border-right: 1px solid rgba(0, 0, 0, 0.13); */
     box-shadow: 0 2px 16px 0 rgb(0 0 0 / 10%);
+    padding: 32px 32px 36px;
 }
 
-.left-banner svg {
+.left-image {
     width: 115px;
-    margin: 23px 25px 32px 26px;
 }
 
 .left-content {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 0 28px 0 0;
-}
+   padding: 0 0 0 32px;
+} 
 
 .left-content h3 {
-    color: #2f3432;
     font-size: 20px;
-    margin-top: 0;
+    color: #2f3432;
 }
 
 .left-content p {
+    margin: 8px 0 16px;
     color: #424e4e;
+    font-weight: 300;
+}
+
+.left-content button {
+    padding: 12px 16px;
     font-size: 14px;
-    font-weight: 400;
-    margin-top: 8px;
-    margin-bottom: 15px;
-}
-
-.left-btn-container {
-    padding: 0;
-    margin: 0;
-}
-
-.left-btn-container button {
-    padding: 12px 19px 12px 19px;
+    font-weight: 500;
     background-color: #ffc800;
+    color: #673500;
     border: none;
-    border-radius: 20px;
-    color: #673500;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.left-btn-container i {
-    color: #673500;
-    font-size: 15px;
-    margin-right: 5px;
+    border-radius: 100px;
 }
 
 .right-banner {
-    border: 1px solid black;
-}
-
-.right-banner svg {
-    width: 150px;
-    
+    box-shadow: 0 2px 16px 0 rgb(0 0 0 / 10%);
+    padding: 32px 32px 36px;
 }
 
 .right-content {
@@ -75,6 +55,28 @@
     flex-direction: column;
 }
 
-.right-banner-label {
-    display: flex;
+.right-content svg {
+    width: 150px; 
+    fill: #0074ba; 
+}
+
+.right-content p {
+    margin: 8px 0 16px;
+    color: #424e4e;
+    font-weight: 300;
+}
+
+.right-content button {
+    padding: 12px 30px;
+    background-color: #0074ba;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 100px;
+}
+
+.right-content button i{
+    color: white;
+    margin-left: 5px;
 }
